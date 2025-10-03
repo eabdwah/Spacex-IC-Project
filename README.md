@@ -1,4 +1,4 @@
-# SpaceX Falcon 9 – I-C Project (IBM Data Science, Coursera)
+# SpaceX Falcon 9 – Project (IBM Data Science, Coursera)
 
 EDA + SQL, Folium maps, Plotly Dash, and ML (LR/SVM/KNN/Tree) to predict Falcon 9 landing success.
 
