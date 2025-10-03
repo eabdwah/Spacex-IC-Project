@@ -15,7 +15,7 @@ Images: in `outputs/` (map, pie, accuracy bar, confusion matrix)
 ## Data
 - IBM SpaceX geo CSV (coords):  
   https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/spacex_launch_geo.csv
-- Local course file: `spacex_launch_dash.csv` (not included)
+  
 
 ## Environment
 To install dependencies:
