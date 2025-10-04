@@ -1,4 +1,4 @@
-# make_spacex_folium_map_unified.py
+# make spacex folium map
 import os, math
 import pandas as pd
 import folium
