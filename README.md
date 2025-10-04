@@ -44,7 +44,7 @@ Then open: [http://127.0.0.1:8050](http://127.0.0.1:8050)
 ```
 ├── EDA_with_SQL.ipynb
 ├── EDA_with_Visualization.ipynb
-├── ML_Prediction.ipynb
+├── SpaceX_Falcon9_Landing_Prediction.ipynb
 ├── make_spacex_folium_map_unified.py
 ├── dash_pie_all_sites.py
 ├── outputs/
@@ -112,9 +112,13 @@ KNN and Decision Tree performed best in this run.
 
 ---
 
-## Course Context
+## 🧾 Project Context
 
-Project completed for the **IBM Data Science Professional Certificate (Coursera)**.  
-Covers EDA (SQL + visualization), Folium maps, Plotly Dash dashboards, and ML (LR, SVM, KNN, Decision Tree).
+Developed as part of the **IBM Data Science Professional Certificate (Coursera)** – Capstone Project.  
+This project combines skills in data and contains analysis, SQL, visualization, Folium maps, interactive dashboards (Plotly Dash), and machine learning (Logistic Regression, SVM, KNN, Decision Tree).
+
+**Author:** Abdullah Wahas
+
+
 
 ---
