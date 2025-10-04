@@ -26,6 +26,3 @@ Generates an interactive map showing launch sites and calculated distances.
 
 ```bash
 python make_spacex_folium_map_unified.py
-
-```bash
-python make_spacex_folium_map_unified.py
