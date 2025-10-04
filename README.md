@@ -93,9 +93,9 @@ pip install -r requirements.txt
 | Model | Accuracy |
 |------|----------|
 | Logistic Regression | 83% |
-| SVM | 78% |
-| KNN | 85% |
-| Decision Tree | 86% |
+| SVM | 83% |
+| KNN | 77% |
+| Decision Tree | 66% |
 
 KNN and Decision Tree performed best in this run.
 
