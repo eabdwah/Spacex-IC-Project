@@ -1,24 +1,31 @@
-# SpaceX Falcon 9 – Project (IBM Data Science, Coursera)
+# SpaceX Falcon 9 Landing Prediction Project
 
-EDA + SQL, Folium maps, Plotly Dash, and ML (LR/SVM/KNN/Tree) to predict Falcon 9 landing success.
+**IBM Data Science Professional Certificate (Coursera)**
 
-## How to run
-- **Folium map**: `python make_spacex_folium_map_unified.py` → opens `spacex_folium_map.html`
-- **Dash pie**: `python dash_pie_all_sites.py` → open http://127.0.0.1:8050
+This project analyzes and predicts the landing success of SpaceX Falcon 9 first-stage boosters using **EDA, SQL, interactive maps, dashboards, and machine learning models**.
 
-## Files
-Notebooks: EDA with SQL, EDA with Visualization, Folium (Lab 6), ML Prediction  
-Scripts: `make_spacex_folium_map_unified.py`, `dash_pie_all_sites.py`  
-Slides: `SpaceX_IC_Presentation.pdf`  
-Images: in `outputs/` (map, pie, accuracy bar, confusion matrix)
+---
 
-## Data
-- IBM SpaceX geo CSV (coords):  
-  https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DS0321EN-SkillsNetwork/datasets/spacex_launch_geo.csv
-  
+## Overview
 
-## Environment
-To install dependencies:
+The project explores Falcon 9 launches to identify factors that determine whether the first stage lands successfully.  
+It includes several key parts:
+
+- **EDA with SQL** – Analyze data stored in databases  
+- **EDA with Visualization** – Explore data using Matplotlib and Seaborn  
+- **Folium Maps** – Visualize launch site locations and measure distances  
+- **Plotly Dash Dashboard** – Interactive charts for success rates and payload relationships  
+- **Machine Learning Models** – Predict landing success using Logistic Regression, SVM, KNN, and Decision Tree  
+
+---
+
+##  How to Run
+
+### Folium Map
+Generates an interactive map showing launch sites and calculated distances.
+
 ```bash
-pip install -r requirements.txt
-Course context: IBM Data Science Professional Certificate (Coursera).
+python make_spacex_folium_map_unified.py
+
+```bash
+python make_spacex_folium_map_unified.py
