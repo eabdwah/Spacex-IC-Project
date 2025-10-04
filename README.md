@@ -112,13 +112,15 @@ KNN and Decision Tree performed best in this run.
 
 ---
 
-## 🧾 Project Context
+## Project Context
 
 Developed as part of the **IBM Data Science Professional Certificate (Coursera)** – Capstone Project.  
 This project combines skills in data and contains analysis, SQL, visualization, Folium maps, interactive dashboards (Plotly Dash), and machine learning (Logistic Regression, SVM, KNN, Decision Tree).
+
+---
 
 **Author:** Abdullah Wahas
 
 
 
----
+
