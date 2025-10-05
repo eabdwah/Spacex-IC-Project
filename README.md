@@ -69,7 +69,7 @@ Built with Plotly Dash:
 - Dropdown to filter launch site  
 
 **Example:**
-![Dashboard Preview](outputs/pie_chart.png)
+![Dashboard Preview](outputs/success_pie.PNG)
 
 ---
 
