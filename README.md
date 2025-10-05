@@ -47,12 +47,12 @@ Then open: [http://127.0.0.1:8050](http://127.0.0.1:8050)
 │   ├── pie_chart.png
 │   ├── accuracy_bar.png
 │   └── confusion_matrix.png
-├── 1-Data-Collection-SQL.ipynb
+├── 1-Data-Collection-API-WebScraoing.ipynb
 ├── 2-EDA-with-SQL.ipynb
 ├── 3-EDA-Visualization.ipynb
 ├── 4-Folium-Map.ipynb
 ├── 5-Dashboard.ipynb
-├── 7-Falcon9-Landing-Prediction.pdf
+├── 7-Falcon9-Landing-Prediction.ipynb
 ├── 8-Presentation.pdf
 ├── 9-README.md
 ├──10-requirements.txt
