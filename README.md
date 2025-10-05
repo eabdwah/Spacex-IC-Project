@@ -12,7 +12,7 @@ The project explores Falcon 9 launches to identify factors that determine whethe
 It includes several key parts:
 
 - **EDA with SQL** – Analyze data stored in databases  
-- **EDA with Visualization** – Explore data using Matplotlib and Seaborn  
+- **EDA Visualization** – Explore data using Matplotlib and Seaborn  
 - **Folium Maps** – Visualize launch site locations and measure distances  
 - **Plotly Dash Dashboard** – Interactive charts for success rates and payload relationships  
 - **Machine Learning Models** – Predict landing success using Logistic Regression, SVM, KNN, and Decision Tree  
@@ -25,14 +25,14 @@ It includes several key parts:
 Generates an interactive map showing launch sites and calculated distances.
 
 ```bash
-python make_spacex_folium_map_unified.py
+python Folium-map-unified.ipynb
 ```
 
 ### Dash Dashboard
 Runs an interactive dashboard (pie + scatter) with a site dropdown built using Plotly Dash.
 
 ```bash
-python dash_pie_all_sites.py
+python Dash_pie_all_sites.py
 ```
 
 Then open: [http://127.0.0.1:8050](http://127.0.0.1:8050)
@@ -42,18 +42,21 @@ Then open: [http://127.0.0.1:8050](http://127.0.0.1:8050)
 ##  Project Structure
 
 ```
-├── EDA_with_SQL.ipynb
-├── EDA_with_Visualization.ipynb
-├── SpaceX_Falcon9_Landing_Prediction.ipynb
-├── make_spacex_folium_map_unified.py
-├── dash_pie_all_sites.py
 ├── outputs/
 │   ├── spacex_folium_map.html
 │   ├── pie_chart.png
 │   ├── accuracy_bar.png
 │   └── confusion_matrix.png
-├── SpaceX_IC_Presentation.pdf
-└── requirements.txt
+├── 1-Data-Collection-SQL.ipynb
+├── 2-EDA-with-SQL.ipynb
+├── 3-EDA-Visualization.ipynb
+├── 4-Folium-Map.ipynb
+├── 5-Dashboard.ipynb
+├── 7-Falcon9-Landing-Prediction.pdf
+├── 8-Presentation.pdf
+├── 9-README.md
+├──10-requirements.txt
+
 ```
 
 ---
