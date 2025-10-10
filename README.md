@@ -25,14 +25,14 @@ It includes several key parts:
 Generates an interactive map showing launch sites and calculated distances.
 
 ```bash
-python Folium-map-unified.ipynb
+jupyter notebook 4-Folium-Map.ipynb
 ```
 
 ### Dash Dashboard
 Runs an interactive dashboard (pie + scatter) with a site dropdown built using Plotly Dash.
 
 ```bash
-python Dash_pie_all_sites.py
+python 6-Dash-pie-all-sites.py
 ```
 
 Then open: [http://127.0.0.1:8050](http://127.0.0.1:8050)
